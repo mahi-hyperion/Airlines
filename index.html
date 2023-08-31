@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Delta Airlines</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://logos-world.net/wp-content/uploads/2021/08/Delta-Emblem.png" alt="Delta Airlines Logo">
+                <h4>D E L T A</h4>
+            </div>
+            <ul>
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#check-in-page">Check-in</a></li>
+                <li><a href="#services.html">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="reservation-navbar">
+        <div class="destination">
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" placeholder="Departure">
+        </div>
+        <div class="destination">
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" placeholder="Destination">
+        </div>
+        <div class="trip-options">
+            <label for="trip-type">Trip Type:</label>
+            <select id="trip-type" name="trip-type">
+                <option value="roundtrip">Round-Trip</option>
+                <option value="oneway">One-way</option>
+            </select>
+        </div>
+        <div class="date">
+            <label for="departure-date">Departure Date:</label>
+            <input type="date" id="departure-date" name="departure-date">
+        </div>
+        <button class="confirm-button">Confirm</button>
+       
+    
+    </div>
+    <div class="check-in-page" id="check-in-page">
+        <h1>Check-in</h1>
+        <div class="check-in-form"> 
+            <label for="confirmation-number">Confirmation Number:</label>
+            <input type="text" id="confirmation-number" name="confirmation-number" placeholder="Enter your confirmation number">
+            
+            <label for="destination" class="desti">Destination:</label>
+            <select id="destination" name="destination">
+                <option value="destination1">Destination 1</option>
+                <option value="destination2">Destination 2</option>
+                <option value="destination3">Destination 3</option>
+            </select>
+            
+            <button class="check-in-button">Check-in</button>
+        </div>
+    </div>
+    <div class="banner">
+        <h1>Destinations to fall in love with </h1>
+        <div class="text">Your journey begins with us.
+            <br>
+            Get inspired by our best flight deals and 
+            <br>
+            venture somewhere new this Fall and Winter.
+        </div>
+        <a href="booking.html" class="book-now-button">Book Now</a>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <h2>Easy Booking</h2>
+            <p>Book your flights hassle-free with our user-friendly booking system.</p>
+        </div>
+        <div class="feature">
+            <h2>In-flight Services</h2>
+            <p>Enjoy a range of in-flight services to make your journey comfortable.</p>
+        </div>
+        <div class="feature">
+            <h2>Experienced Crew</h2>
+            <p>Our skilled and friendly crew is here to ensure your safety and comfort.</p>
+        </div>
+        
+    </div>
+    <nav class="search-nav">
+        <div class="search-bar">
+            <span>Search for a topic</span>
+        </div>
+    </nav>
+
+    <div class="services-content">
+        <h1>Our Services</h1>
+       
+    </div>
+    <footer>
+        <p>&copy; 2023 Delta Airlines. All rights reserved.</p>
+    </footer>
+</body>
+</html>
